@@ -17,7 +17,7 @@ const copy = async () => {
         if (err) {
           console.error("FS operation failed");
         } else {
-          console.log("files copied");
+          console.log("Directory and files copied");
         }
       });
     }
