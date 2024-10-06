@@ -2,7 +2,6 @@ import * as fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-const content = "I am fresh and young";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const __sourceDir = path.join(__dirname, "files");
