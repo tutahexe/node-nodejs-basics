@@ -18,6 +18,10 @@ const compress = async () => {
     if (err) {
       console.error("Operation failed:", err);
       process.exitCode = 1;
+    } else {
+      console.log(
+        `File successfully ompressed. Can be found ${__destinationPath}`
+      );
     }
   });
 };
